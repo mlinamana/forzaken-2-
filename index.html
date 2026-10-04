@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FORSAKEN | Dark Archives</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="logo">
+            FORSAKEN<span>_</span>
+        </div>
+
+        <nav>
+            <a href="#inicio">INICIO</a>
+            <a href="#supervivientes">SUPERVIVIENTES</a>
+            <a href="#killers">KILLERS</a>
+            <a href="#lore">LORE</a>
+        </nav>
+
+        <button class="sound-button" onclick="toggleSound()">
+            🔊
+        </button>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section id="inicio" class="hero">
+
+            <div class="hero-background"></div>
+
+            <div class="hero-content">
+
+                <p class="system-text">
+                    SYSTEM // CONNECTION ESTABLISHED
+                </p>
+
+                <h1>
+                    FORSAKEN
+                </h1>
+
+                <h2>
+                    THE DARKNESS IS WAITING
+                </h2>
+
+                <p class="hero-description">
+                    Entra en un mundo donde sobrevivir no está garantizado.
+                    Elige tu personaje, descubre sus habilidades y prepárate
+                    para enfrentarte a lo desconocido.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <button onclick="scrollToSection('supervivientes')">
+                        VER SUPERVIVIENTES
+                    </button>
+
+                    <button
+                        class="secondary-button"
+                        onclick="scrollToSection('killers')">
+                        VER KILLERS
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                <div class="image-placeholder">
+
+                    <div class="scanline"></div>
+
+                    <div class="placeholder-content">
+
+                        <span>IMAGEN PRINCIPAL</span>
+
+                        <small>
+                            Coloca aquí tu imagen de FORSAKEN
+                        </small>
+
+                        <code>
+                            images/forsaken-main.jpg
+                        </code>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= STATS ================= -->
+
+        <section class="stats">
+
+            <div>
+                <strong>20</strong>
+                <span>PERSONAJES</span>
+            </div>
+
+            <div>
+                <strong>12</strong>
+                <span>SUPERVIVIENTES</span>
+            </div>
+
+            <div>
+                <strong>8</strong>
+                <span>KILLERS</span>
+            </div>
+
+            <div>
+                <strong>∞</strong>
+                <span>POSIBILIDADES</span>
+            </div>
+
+        </section>
+
+
+        <!-- ================= SUPERVIVIENTES ================= -->
+
+        <section id="supervivientes" class="character-section">
+
+            <div class="section-title">
+
+                <p>// ARCHIVE 01</p>
+
+                <h2>
+                    SUPERVIVIENTES
+                </h2>
+
+                <span>
+                    ELLOS CORREN. ELLOS LUCHAN. ELLOS SOBREVIVEN.
+                </span>
+
+            </div>
+
+
+            <div class="character-grid">
+
+
+                <!-- 007n7 -->
+
+                <article class="character-card">
+
+                    <div class="character-image">
+
+                        <img
+                            src="images/007n7.jpg"
+                            alt="007n7"
+                        >
+
+                        <div class="image-number">
+                            001
+                        </div>
+
+                    </div>
+
+                    <div class="character-info">
+
+                        <span class="role">
+                            SURVIVALIST
+                        </span>
+
+                        <h3>
+                            007n7
+                        </h3>
+
+                        <p>
+                            Especialista en sigilo y engaño.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- BUILDERMAN -->
+
+                <article class="character-card">
+
+                    <div class="character-image">
+
+                        <img
+                            src="images/builderman.jpg"
+                            alt="Builderman"
+                        >
+
+                        <div class="image-number">
+                            002
+                        </div>
+
+                    </div>
+
+                    <div class="character-info">
+
+                        <span class="role">
+                            SUPPORT
+                        </span>
+
+                        <h3>
+                            BUILDERMAN
+                        </h3>
+
+                        <p>
+                            Control del área y preparación.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CHANCE -->
+
+                <article class="character-card">
+
+                    <div class="character-image">
+
+                        <img
+                            src="images/chance.jpg"
+                            alt="Chance"
+                        >
+
+                        <div class="image-number">
+                            003
+                        </div>
+
+                    </div>
+
+                    <div class="character-info">
+
+                        <span class="role">
+                            SENTINEL
+                        </span>
+
+                        <h3>
+                            CHANCE
+                        </h3>
+
+                        <p>
+                            Un superviviente basado en el riesgo y la suerte.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- DUSEKKAR -->
+
+                <article class="character-card">
+
+                    <div class="character-image">
+
+                        <img
+                            src="images/dusekkar.jpg"
+                            alt="Dusekkar"
+                        >
+
+                        <div class="image-number">
+                            004
+                        </div>
+
+                    </div>
+
+                    <div class="character-info">
+
+                        <span class="role">
+                            SUPPORT
+                        </span>
+
+                        <h3>
+                            DUSEKKAR
+                        </h3>
+
+                        <p>
+                            Protección y apoyo para el equipo.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ELLIOT -->
+
+                <article class="character-card">
+
+                    <div class="character-image">
+
+                        <img
+                            src="images/elliot.jpg"
+                            alt="Elliot"
+                        >
+
+                        <div class="image-number">
+                            005
+                        </div>
+
+                    </div>
+
+                    <div class="character-info">
+
+                        <span class="role">
+                            SUPPORT
+                        </span>
+
+                        <h3>
+                            ELLIOT
+                        </h3>
+
+                        <p>
+                            Especialista en curación y apoyo frontal.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- GUEST 1337 -->
+
+                <article class="character-card">
+
+                    <div class="character-image">
+
+                        <img
+                            src="images/guest1337.jpg"
+                            alt="Guest 1337"
+                        >
+
+                        <div class="image-number">
+                            006
+                        </div>
+
+                    </div>
+
+                    <div class="character-info">
+
+                        <span class="role">
+                            SENTINEL
+                        </span>
+
+                        <h3>
+                            GUEST 1337
+                        </h3>
+
+                        <p>
+                            Especialista en predicción y combate frontal.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- JANE DOE -->
+
+                <article class="character-card">
+
+                    <div class="character-image">
+
+                        <img
+                            src="images/janedoe.jpg"
+                            alt="Jane Doe"
+                        >
+
+                        <div class="image-number">
+                            007
+                        </div>
+
+                    </div>
+
+                    <div class="character-info">
+
+                        <span class="role">
+                            SENTINEL
+                        </span>
+
+                        <h3>
+                            JANE DOE
+                        </h3>
+
+                        <p>
+                            Personaje versátil con manejo de recursos.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- NOOB -->
+
+                <article class="character-card">
+
+                    <div class="character-image">
+
+                        <img
+                            src="images/noob.jpg"
+                            alt="Noob"
+                        >
+
+                        <div class="image-number">
+                            008
+                        </div>
+
+                    </div>
+
+                    <div class="character-info">
+
+                        <span class="role">
+                            SURVIVALIST
+                        </span>
+
+                        <h3>
+                            NOOB
+                        </h3>
+
+                        <p>
+                            Personaje equilibrado y preparado para cualquier situación.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- SHEDLETSKY -->
+
+                <article class="character-card">
+
+                    <div class="character-image">
+
+                        <img
+                            src="images/shedletsky.jpg"
+                            alt="Shedletsky"
+                        >
+
+                        <div class="image-number">
+                            009
+                        </div>
+
+                    </div>
+
+                    <div class="character-info">
+
+                        <span class="role">
+                            SENTINEL
+                        </span>
+
+                        <h3>
+                            SHEDLETSKY
+                        </h3>
+
+                        <p>
+                            Especialista en combate y protección.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- TAPH -->
+
+                <article class="character-card">
+
+                    <div class="character-image">
+
+                        <img
+                            src="images/taph.jpg"
+                            alt="Taph"
+                        >
+
+                        <div class="image-number">
+                            010
+                        </div>
+
+                    </div>
+
+                    <div class="character-info">
+
+                        <span class="role">
+                            SUPPORT
+                        </span>
+
+                        <h3>
+                            TAPH
+                        </h3>
+
+                        <p>
+                            Sigilo y preparación del terreno.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- TWO TIME -->
+
+                <article class="character-card">
+
+                    <div class="character-image">
+
+                        <img
+                            src="images/twotime.jpg"
+                            alt="Two Time"
+                        >
+
+                        <div class="image-number">
+                            011
+                        </div>
+
+                    </div>
+
+                    <div class="character-info">
+
+                        <span class="role">
+                            SENTINEL
+                        </span>
+
+                        <h3>
+                            TWO TIME
+                        </h3>
+
+                        <p>
+                            Supervivencia, sigilo y una segunda oportunidad.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- VEERONICA -->
+
+                <article class="character-card">
+
+                    <div class="character-image">
+
+                        <img
+                            src="images/veeronica.jpg"
+                            alt="Veeronica"
+                        >
+
+                        <div class="image-number">
+                            012
+                        </div>
+
+                    </div>
+
+                    <div class="character-info">
+
+                        <span class="role">
+                            SURVIVALIST
+                        </span>
+
+                        <h3>
+                            VEERONICA
+                        </h3>
+
+                        <p>
+                            Movilidad y preparación para escapar.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= KILLERS ================= -->
+
+        <section id="killers" class="character-section killers-section">
+
+            <div class="section-title killer-title">
+
+                <p>// ARCHIVE 02</p>
+
+                <h2>
+                    KILLERS
+                </h2>
+
+                <span>
+                    ELLOS NO CORREN. ELLOS CAZAN.
+                </span>
+
+            </div>
+
+
+            <div class="character-grid">
+
+
+                <!-- 1X1X1X1 -->
+
+                <article class="character-card killer-card">
+
+                    <div class="character-image">
+
+                        <img
+                            src="images/1x1x1x1.jpg"
+                            alt="1x1x1x1"
+                        >
+
+                        <div class="image-number">
+                            K01
+                        </div>
+
+                    </div>
+
+                    <div class="character-info">
+
+                        <span class="role killer-role">
+                            KILLER
+                        </span>
+
+                        <h3>
+                            1X1X1X1
+                        </h3>
+
+                        <p>
+                            Un aterrador killer especializado en controlar el área.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- AZURE -->
+
+                <article class="character-card killer-card">
+
+                    <div class="character-image">
+
+                        <img
+                            src="images/azure.jpg"
+                            alt="Azure"
+                        >
+
+                        <div class="image-number">
+                            K02
+                        </div>
+
+                    </div>
+
+                    <div class="character-info">
+
+                        <span class="role killer-role">
+                            KILLER
+                        </span>
+
+                        <h3>
+                            AZURE
+                        </h3>
+
+                        <p>
+                            Un killer de control con una presencia devastadora.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- C00LKIDD -->
+
+                <article class="character-card killer-card">
+
+                    <div class="character-image">
+
+                        <img
+                            src="images/c00lkidd.jpg"
+                            alt="c00lkidd"
+                        >
+
+                        <div class="image-number">
+                            K03
+                        </div>
+
+                    </div>
+
+                    <div class="character-info">
+
+                        <span class="role killer-role">
+                            KILLER
+                        </span>
+
+                        <h3>
+                            C00LKIDD
+                        </h3>
+
+                        <p>
+                            Rápido, agresivo y especializado en perseguir.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- GUEST 666 -->
+
+                <article class="character-card killer-card">
+
+                    <div class="character-image">
+
+                        <img
+                            src="images/guest666.jpg"
+                            alt="Guest 666"
+                        >
+
+                        <div class="image-number">
+                            K04
+                        </div>
+
+                    </div>
+
+                    <div class="character-info">
+
+                        <span class="role killer-role">
+                            KILLER
+                        </span>
+
+                        <h3>
+                            GUEST 666
+                        </h3>
+
+                        <p>
+                            Una presencia aterradora especializada en desgaste.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- JOHN DOE -->
+
+                <article class="character-card killer-card">
+
+                    <div class="character-image">
+
+                        <img
+                            src="images/johndoe.jpg"
+                            alt="John Doe"
+                        >
+
+                        <div class="image-number">
+                            K05
+                        </div>
+
+                    </div>
+
+                    <div class="character-info">
+
+                        <span class="role killer-role">
+                            KILLER
+                        </span>
+
+                        <h3>
+                            JOHN DOE
+                        </h3>
+
+                        <p>
+                            Especialista en trampas y control del mapa.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- NOLI -->
+
+                <article class="character-card killer-card">
+
+                    <div class="character-image">
+
+                        <img
+                            src="images/noli.jpg"
+                            alt="Noli"
+                        >
+
+                        <div class="image-number">
+                            K06
+                        </div>
+
+                    </div>
+
+                    <div class="character-info">
+
+                        <span class="role killer-role">
+                            KILLER
+                        </span>
+
+                        <h3>
+                            NOLI
+                        </h3>
+
+                        <p>
+                            Un killer de engaño, velocidad y persecución.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- NOSFERATU -->
+
+                <article class="character-card killer-card">
+
+                    <div class="character-image">
+
+                        <img
+                            src="images/nosferatu.jpg"
+                            alt="Nosferatu"
+                        >
+
+                        <div class="image-number">
+                            K07
+                        </div>
+
+                    </div>
+
+                    <div class="character-info">
+
+                        <span class="role killer-role">
+                            KILLER
+                        </span>
+
+                        <h3>
+                            NOSFERATU
+                        </h3>
+
+                        <p>
+                            Un cazador especializado en emboscadas y sigilo.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- SLASHER -->
+
+                <article class="character-card killer-card">
+
+                    <div class="character-image">
+
+                        <img
+                            src="images/slasher.jpg"
+                            alt="Slasher"
+                        >
+
+                        <div class="image-number">
+                            K08
+                        </div>
+
+                    </div>
+
+                    <div class="character-info">
+
+                        <span class="role killer-role">
+                            KILLER
+                        </span>
+
+                        <h3>
+                            SLASHER
+                        </h3>
+
+                        <p>
+                            Un killer agresivo diseñado para persecuciones rápidas.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= LORE ================= -->
+
+        <section id="lore" class="lore-section">
+
+            <div class="section-title">
+
+                <p>// ARCHIVE 03</p>
+
+                <h2>
+                    FORSAKEN ARCHIVES
+                </h2>
+
+            </div>
+
+
+            <div class="terminal">
+
+                <div class="terminal-header">
+
+                    <span>●</span>
+                    <span>●</span>
+                    <span>●</span>
+
+                    <p>
+                        FORSAKEN_SYSTEM.exe
+                    </p>
+
+                </div>
+
+
+                <div class="terminal-body">
+
+                    <p>
+                        > INITIALIZING SYSTEM...
+                    </p>
+
+                    <p>
+                        > CONNECTION ESTABLISHED.
+                    </p>
+
+                    <p>
+                        > SURVIVORS FOUND: 12
+                    </p>
+
+                    <p>
+                        > KILLERS FOUND: 8
+                    </p>
+
+                    <p>
+                        > THREAT LEVEL: EXTREME
+                    </p>
+
+                    <p class="purple-text">
+                        > WELCOME TO FORSAKEN.
+                    </p>
+
+                    <p class="warning-text">
+                        > DO NOT TRUST ANYONE.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-logo">
+            FORSAKEN<span>_</span>
+        </div>
+
+        <p>
+            FAN-MADE WEBSITE
+        </p>
+
+        <p>
+            SURVIVE THE DARKNESS.
+        </p>
+
+    </footer>
+
+
+    <!-- ================= MODAL ================= -->
+
+    <div id="warningModal" class="modal">
+
+        <div class="modal-content">
+
+            <span
+                class="close"
+                onclick="closeWarning()">
+                ×
+            </span>
+
+            <div class="modal-icon">
+                ⚠
+            </div>
+
+            <h2>
+                WARNING
+            </h2>
+
+            <p>
+                You are entering the FORSAKEN archives.
+            </p>
+
+            <button onclick="closeWarning()">
+                ENTER
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
